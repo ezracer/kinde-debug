@@ -1,0 +1,7 @@
+.vercel
+node_modules
+.cache
+public/build
+/build/
+.env
+.output

@@ -1,0 +1,101 @@
+@import "normalize.css";
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+* {
+  font-family: "Inter", sans-serif;
+}
+
+html {
+  font-family: "Inter", sans-serif;
+  font-size: 10px;
+}
+
+body {
+  font-family: "Inter", sans-serif !important;
+  font-size: 1.6rem;
+  font-weight: 400;
+}
+
+.shadow-none {
+  box-shadow: none !important;
+}
+
+button[data-testid="button"] {
+  cursor: pointer;
+}
+
+button[data-testid="button"]:hover {
+  cursor: pointer;
+  /* border:1px solid #3162d4; */
+}
+
+span[data-testid="text-input-before-component"],
+span[data-testid="text-input-after-component"] {
+  cursor: pointer;
+}
+
+.form-control {
+  height: 4rem;
+  display: block;
+  width: 100%;
+  padding: 6px 12px;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #555;
+  background-color: #fff;
+  background-image: none;
+  border: 1px solid #ccc;
+  border-radius: 0.8rem;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  -webkit-transition: border-color ease-in-out 0.15s, -webkit-box-shadow ease-in-out 0.15s;
+  -o-transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+  transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+}
+
+select.form-control {
+  background-image: url("data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20256%20448%22%20enable-background%3D%22new%200%200%20256%20448%22%3E%3Cstyle%20type%3D%22text%2Fcss%22%3E.arrow%7Bfill%3A%23424242%3B%7D%3C%2Fstyle%3E%3Cpath%20class%3D%22arrow%22%20d%3D%22M255.9%20168c0-4.2-1.6-7.9-4.8-11.2-3.2-3.2-6.9-4.8-11.2-4.8H16c-4.2%200-7.9%201.6-11.2%204.8S0%20163.8%200%20168c0%204.4%201.6%208.2%204.8%2011.4l112%20112c3.1%203.1%206.8%204.6%2011.2%204.6%204.4%200%208.2-1.5%2011.4-4.6l112-112c3-3.2%204.5-7%204.5-11.4z%22%2F%3E%3C%2Fsvg%3E%0A");
+  background-position: right 10px center;
+  background-repeat: no-repeat;
+  background-size: auto 50%;
+  padding: 10px 30px 10px 10px;
+  outline: none;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  appearance: none;
+}
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  min-width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 1rem;
+  top: 3rem;
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 9;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+
+div[data-testid="text-input"] {
+  height: 39px;
+}
+
+.video-player {
+  height: calc(100vh - 18.8rem);
+  /* width: 88%; */
+}

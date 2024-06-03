@@ -1,0 +1,44 @@
+.sidebar-container ul li a {
+  font-size: 1.4rem;
+  font-style: normal;
+  font-weight: 450;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+  color: #272e35;
+  margin: 0.5rem 1rem;
+}
+
+.new-workflow {
+  color: #7e8b99;
+  font-size: 1.2rem;
+  font-weight: 600;
+  line-height: 20px; /* 166.667% */
+  letter-spacing: 0.1px;
+}
+
+.user-profile h3 {
+  color: #272e35;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 450;
+  line-height: 24px; /* 171.429% */
+  letter-spacing: 0.2px;
+}
+
+.user-profile h6 {
+  color: #7e8b99;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 450;
+  line-height: 20px; /* 166.667% */
+  letter-spacing: 0.2px;
+}
+
+.active {
+  border-radius: 6px;
+  background: rgba(16, 40, 72, 0.09);
+}
+
+.outline-remove {
+  outline: 0 !important;
+}
