@@ -5,3 +5,4 @@ public/build
 /build/
 .env
 .output
+.DS_Store
